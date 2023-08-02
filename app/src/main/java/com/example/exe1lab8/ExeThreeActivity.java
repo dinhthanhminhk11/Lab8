@@ -65,7 +65,6 @@ public class ExeThreeActivity extends AppCompatActivity {
                         @Override
                         public void onSuccess(Uri downloadUri) {
                             String imageURL = downloadUri.toString();
-                            // Do something with imageURL (e.g., save it in Firebase Realtime Database)
                             Toast.makeText(ExeThreeActivity.this, "Upload successful", Toast.LENGTH_SHORT).show();
                         }
                     });
